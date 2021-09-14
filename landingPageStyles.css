@@ -1,0 +1,49 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background: url(wallpaper.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	font-size: 5rem;
+	font-weight: noRMAL;
+}
+
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	border-top:  3px solid black;
+	max-width: 500px;
+}
+
+.buffer {
+	height: 37rem;
+}
+
+.btn-custom {
+	color: white;
+	text-align: center;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 500px;
+	box-shadow: 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.btn-custom:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: 0.15s;
+}
+
+.btn-custom:active {
+	box-shadow: 0 2px rgba(0, 0, 0, 0.8);
+	transform:  translateY(4px);
+}
